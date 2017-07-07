@@ -1,6 +1,6 @@
 {
-  "name": "aweitian/url-parse",
-  "description": "按 *** 规则解析 URL的PATH部分",
+  "name": "aweitian/session",
+  "description": "SESSION管理组件",
   "type": "project",
   "keywords": [
     "aweitian",
@@ -9,7 +9,7 @@
     "pmcai",
     "url"
   ],
-  "homepage": "https://github.com/aweitian/url-parse",
+  "homepage": "https://github.com/aweitian/session",
   "license": "MIT",
   "authors": [
     {
