@@ -4,3 +4,4 @@ require_once "tests/SessionTest.php";
 
 $test = new SessionTest();
 $test->testConfig();
+

@@ -24,6 +24,15 @@ class Session extends Config
     }
 
     /**
+     * @return string
+     */
+    public function getId()
+    {
+        $this->start();
+        return session_id();
+    }
+
+    /**
      * @return $this
      */
     public function start()

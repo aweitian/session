@@ -11,6 +11,7 @@ class SessionTest
         var_dump('foo' == $test->get('c.d'));
         $test->set('b.b','cc');
         var_dump($_SESSION['b']['b'] == 'cc');
+        var_dump($test->getId());
     }
 }
 
